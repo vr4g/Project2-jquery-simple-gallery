@@ -14,8 +14,9 @@ $(function () {
     width: "100%",
     position: "absolute",
     "justify-content": "center",
-    align: "center",
-    top: "0",
+    right: "0",
+    left: "0",
+    // top: "0",
     "z-index": 10,
   });
 
@@ -119,7 +120,7 @@ $(function () {
 
   $("#previous-image").css({
     cursor: "pointer",
-    height: "100px",
+    height: "9vh",
     position: "absolute",
     bottom: "10px",
     left: "20px",
@@ -129,7 +130,7 @@ $(function () {
 
   $("#next-image").css({
     cursor: "pointer",
-    height: "100px",
+    height: "9vh",
     position: "absolute",
     bottom: "10px",
     right: "20px",
@@ -138,17 +139,16 @@ $(function () {
   });
 
   $(".previous-text").css({
-    height: "100px",
     position: "absolute",
-    bottom: "35px",
+    bottom: "11vh",
     left: "20px",
     color: "white",
     "font-size": "1.2rem",
   });
+
   $(".next-text").css({
-    height: "100px",
     position: "absolute",
-    bottom: "35px",
+    bottom: "11vh",
     color: "white",
     right: "20px",
     "font-size": "1.2rem",

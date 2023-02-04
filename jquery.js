@@ -38,8 +38,6 @@ $(function ($) {
     $("#lightbox").hide();
     $(".lightbox-container").hide();
   });
-
-  $("#lightbox").on("click", function () {});
 });
 
 $(function () {
@@ -57,6 +55,7 @@ $(function () {
     $("#lightbox").css({
       display: "flex",
     });
+
     e.preventDefault();
     currentIndex = $(this).index();
     $lightboxImg.attr("src", images[currentIndex].src);
@@ -101,6 +100,7 @@ $(function () {
     });
   });
 });
+
 function ThumbnailLightbox(currentIndex, $nextImgThumb, $prevImgThumb) {
   if (currentIndex === images.length - 1) {
     $nextImgThumb.attr("src", images[0].src);

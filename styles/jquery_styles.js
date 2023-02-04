@@ -9,6 +9,7 @@ $(function () {
     "background-size": "cover",
     "background-repeat": "no-repeat",
     "background-position": "center",
+    "background-attachment": "fixed",
     position: "relative",
     height: "100vh",
   });
@@ -18,22 +19,22 @@ $(function () {
     "justify-content": "space-between",
     "align-items": "center",
     padding: "0 20px",
-    height: "60px",
+    height: "7.5vh",
     "background-color": "#610000",
-    "font-size": "2rem",
+    "font-size": "2.1vmax",
     color: "white",
   });
 
   $("header span").css({
-    "font-size": "1rem",
+    "font-size": "1.6vmax",
     position: "absolute",
-    top: "40px",
+    top: "35px",
     right: "10px",
   });
 
   $("h1").css({
     "text-align": "center",
-    "font-size": "2.5rem",
+    "font-size": "3vmax",
     color: "white",
   });
 });
